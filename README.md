@@ -1,4 +1,9 @@
 # Contents
+* [Install Java2](#Install-Java2)
+* [Eclipse shortcuts (товчлолууд)](#eclipse-shortcuts-(товчлолууд)
+[Custom foo description](#foo)
+
+
 
 ## Install Java
 Install JDK
@@ -29,3 +34,10 @@ Close file: CTRL + W
 ## jshell
 /exit
 
+
+## Install Java2
+Install JDK
+https://www.oracle.com/java/technologies/javase-downloads.html
+
+
+# Foo
