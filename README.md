@@ -8,6 +8,7 @@
 ## Install Java
 Install JDK  
 https://www.oracle.com/java/technologies/javase-downloads.html  
+```java -version```  
 
 ## Install Eclipse
 Install Eclipse IDE for Enterprise Java and Web Developers  
@@ -18,18 +19,23 @@ Java > Editor > Save Actions > Perform the selected actions on save > Format Sou
 Additional Actions > Configure > Code Organizing > Remove trailing whitespace  
 Additional Actions > Configure > Code Style > Use blocks in...  
 Additional Actions > Configure > Code Style > Combine nested 'if'...  
+Editors > Text Editors > Spelling > Encoding > UTF-8  
 
 ## Eclipse shortcuts (товчлолууд)
-Suggest: ```CTRL + Space```
-Format code: ```CTRL + Shift + F```
-Run: ```CTRL + F11``` 
+Suggest: ```CTRL + Space```  
+Format code: ```CTRL + Shift + F```  
+Run: ```CTRL + F11```  
 Debug: ```F11```  
-Step into: ```F5```
-Step over: ```F6```
-Resume: F8  
-Print: sysout + CTRL + Space  
-Search class: CTRL + Shift + R  
-Close file: CTRL + W  
+Step into: ```F5```  
+Step over: ```F6```  
+Resume: ```F8```  
+Print: ```sysout + CTRL + Space```  
+Search class: ```CTRL + Shift + R```  
+Close file: ```CTRL + W```  
+Duplicate: ```CTRL + ALT + Down```  
 
-## jshell
+## JShell
+```jshell -version```  
 ```/exit```  
+
+
