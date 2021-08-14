@@ -20,18 +20,16 @@ Additional Actions > Configure > Code Style > Use blocks in...
 Additional Actions > Configure > Code Style > Combine nested 'if'...  
 
 ## Eclipse shortcuts (товчлолууд)
-Suggest: CTRL + Space  
-Format code: CTRL + Shift + F  
-Run: CTRL + F11  
-Debug: F11  
-Step into: F5  
-Step over: F6  
+Suggest: ```CTRL + Space```
+Format code: ```CTRL + Shift + F```
+Run: ```CTRL + F11``` 
+Debug: ```F11```  
+Step into: ```F5```
+Step over: ```F6```
 Resume: F8  
 Print: sysout + CTRL + Space  
 Search class: CTRL + Shift + R  
 Close file: CTRL + W  
 
 ## jshell
-```
-/exit
-```  
+```/exit```  
