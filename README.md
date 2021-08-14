@@ -1,8 +1,8 @@
 # Contents
 * [Install Java](#Install-Java)
 * [Install Eclipse](#Install-Eclipse)
-* [Eclipse preferences](#Eclipse-preferences-(сонголтууд))
-* [Eclipse shortcuts](#Eclipse-shortcuts-(товчлолууд))
+* [Eclipse preferences](#Eclipse-preferences-сонголтууд)
+* [Eclipse shortcuts](#Eclipse-shortcuts-товчлолууд)
 * [jshell](#jshell)
 
 ## Install Java
