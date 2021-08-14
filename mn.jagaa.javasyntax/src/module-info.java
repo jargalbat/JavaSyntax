@@ -1,0 +1,2 @@
+module mn.jagaa.javasyntax {
+}
