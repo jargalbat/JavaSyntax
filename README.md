@@ -32,4 +32,6 @@ Search class: CTRL + Shift + R
 Close file: CTRL + W  
 
 ## jshell
-/exit  
+```
+/exit
+```  
