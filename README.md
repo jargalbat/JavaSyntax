@@ -4,6 +4,7 @@
 * [Eclipse preferences](#Eclipse-preferences-сонголтууд)
 * [Eclipse shortcuts](#Eclipse-shortcuts-товчлолууд)
 * [jshell](#jshell)
+* [JVM, JRE, JDK](#JVM,-JRE,-JDK)
 
 ## Install Java
 Install JDK  
