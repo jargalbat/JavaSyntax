@@ -38,4 +38,11 @@ Duplicate: ```CTRL + ALT + Down```
 ```jshell -version```  
 ```/exit```  
 
+## JVM, JRE, JDK
+> JVM (Java Virtual Machine) runs Java bytecode.  
+> JRE (Java Runtime Environment) = JVM + Libraries + Other components  
+> JDK = JRE + Compilers + Debuggers  
+
+
+
 
