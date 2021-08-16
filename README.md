@@ -34,6 +34,8 @@ Print: ```sysout + CTRL + Space```
 Search class: ```CTRL + Shift + R```  
 Close file: ```CTRL + W```  
 Duplicate: ```CTRL + ALT + Down```  
+Generate Getters and Setters: ```Source > Generate Getters and Setters```
+Import: ```CTRL + 1```
 
 ## JShell
 ```jshell -version```  
@@ -42,7 +44,7 @@ Duplicate: ```CTRL + ALT + Down```
 ## JVM, JRE, JDK
 > JVM (Java Virtual Machine) runs Java bytecode.  
 > JRE (Java Runtime Environment) = JVM + Libraries + Other components  
-> JDK = JRE + Compilers + Debuggers  
+> JDK (Java Development Kit) = JRE + Compilers + Debuggers  
 
 
 
