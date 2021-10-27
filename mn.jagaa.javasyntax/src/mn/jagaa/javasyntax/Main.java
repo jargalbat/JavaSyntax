@@ -134,6 +134,12 @@ public class Main {
 		BigDecimal totalValue = calculator.calcTotal(5);
 		System.out.println(totalValue);
 
+		// Financial
+		var bd1 = new BigDecimal("34.56789876");
+		var bd2 = new BigDecimal("34.2234");
+		System.out.println(bd1.add(bd2)); // 68.79129876
+		System.out.println(34.56789876 + 34.2234); // 68.79129875999999
+
 		//
 		// Reference types (Лавлах төрлүүд - Заагч)
 		//
