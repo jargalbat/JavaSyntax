@@ -12,17 +12,17 @@ import java.math.BigDecimal;
  */
 public class Main {
 	public static void main(String[] args) {
-//		print();
-//		statements();
-//		expressions();
+		print();
+		statements();
+		expressions();
 		variables();
-//		literals();
-//		conditions();
-//		loops();
-//		methods();
-//		encapsulation();
-//		constructor();
-//		abstraction();
+		literals();
+		conditions();
+		loops();
+		methods();
+		encapsulation();
+		constructor();
+		abstraction();
 	}
 
 	public static void print(String str) {
