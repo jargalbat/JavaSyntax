@@ -56,7 +56,6 @@ public class Main {
 		int b = 1;
 		System.out.println(a++);
 		System.out.println(++b);
-
 	}
 
 	private static void variables() {
@@ -164,6 +163,13 @@ public class Main {
 		int i = 5;
 		System.out.println("i = " + i);
 
+		// Lexicographically larger. -int, 0, +int
+        System.out.println(A.compareToIgnoreCase(B) > 0 ? "Yes" : "No");
+        
+		// Capitalize first letter
+		String A = "john";
+        A = A.substring(0, 1).toUpperCase() + A.substring(1);
+		A = A.replaceFirst(A.substring(0, 1), A.substring(0, 1).toUpperCase());
 	}
 
 	private static void conditions() {
