@@ -11,6 +11,8 @@ import java.math.BigDecimal;
  *
  */
 public class Main {
+
+
 	public static void main(String[] args) {
 //		print();
 //		statements();
@@ -23,6 +25,7 @@ public class Main {
 //		encapsulation();
 //		constructor();
 //		abstraction();
+		numberFormat();
 	}
 
 	public static void print(String str) {
@@ -35,6 +38,12 @@ public class Main {
 		System.out.printf("5 * 2 = 10").println();
 		System.out.printf("%d * %d = %d", 5, 2, 7);
 
+		String s1="cpp";
+        int x="65";
+        System.out.printf("%-15s%03d%n", s1, x);
+		// java           100 
+		// cpp            065 
+		
 	}
 
 	private static void statements() {
@@ -210,4 +219,40 @@ public class Main {
 
 	}
 
+	
+	/// Static
+	static boolean flag;
+	static int B = -1;
+	static int H = 2;
+	static {
+    	if (B <= 0 || H <= 0) {
+        	System.out.println("java.lang.Exception: Breadth and height must be positive");
+    	} else {
+        	flag = true;
+    	}
+	}
+
+	public static void numberFormat() {
+        double payment = 100d;
+        String us = NumberFormat.getCurrencyInstance(Locale.US).format(payment);
+        String india = NumberFormat.getCurrencyInstance(new Locale("en", "IN")).format(payment);
+        String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
+        String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
+        
+        System.out.println("US: " + us);
+        System.out.println("India: " + india);
+        System.out.println("China: " + china);
+        System.out.println("France: " + france);
+	}
+
+	 public static String findDay(int month, int day, int year) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month - 1);
+        calendar.set(Calendar.DAY_OF_MONTH, day);
+        Date date = calendar.getTime();
+        DateFormat dateFormat = new SimpleDateFormat("EEEE");
+        return dateFormat.format(date).toUpperCase(); 
+        // return calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.getDefault()).toUpperCase();
+    }
 }
